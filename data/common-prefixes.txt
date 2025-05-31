@@ -1,0 +1,17 @@
+Bottom
+East
+Great
+High
+Little
+Long
+Lower
+Middle
+Nether
+New
+North
+Old
+Over
+South
+Under
+Upper
+West
