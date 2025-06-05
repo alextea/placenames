@@ -1,8 +1,5 @@
 from flask import Flask, render_template_string
-import os
-import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from generate_placename import generate_common_placenames
+from placenames.generate_placename import generate_common_placenames
 
 app = Flask(__name__)
 
