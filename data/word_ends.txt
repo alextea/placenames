@@ -934,7 +934,6 @@ Spike
 Splot
 Spond
 Spot
-St.
 Stag
 Stagg
 Stair
@@ -970,7 +969,6 @@ Teme
 Tern
 Tew
 Tey
-Th'
 The
 Thore
 Thorn
@@ -1343,7 +1341,6 @@ ayo
 ays
 azars
 aze
-b's
 bank
 barns
 barrow
@@ -1356,7 +1353,6 @@ bbett
 bbins
 bbots
 bbott
-bbs
 ber
 berry
 berts
@@ -1424,7 +1420,6 @@ cklow
 ckney
 cknor
 ckray
-cks
 cle
 clere
 coe
@@ -1450,7 +1445,6 @@ cum
 cumbe
 cures
 cus
-d's
 dal
 dale
 dalen
@@ -1465,7 +1459,6 @@ ddish
 ddles
 ddo
 ddock
-dds
 ddy
 dean
 deard
@@ -1743,7 +1736,6 @@ ffard
 ffcot
 ffe
 ffice
-ffs
 field
 fin
 fleet
@@ -1753,9 +1745,7 @@ fords
 forth
 fre
 fries
-fts
 fylde
-g's
 gaine
 gan
 gar
@@ -1775,12 +1765,9 @@ gfold
 ggard
 ggins
 ggons
-ggs
 ggy
 ghall
 gho
-ghs
-ght
 ghter
 ghtor
 ghway
@@ -1810,7 +1797,6 @@ gue
 gurra
 gus
 gwith
-h's
 hacre
 haels
 halgh
@@ -1861,7 +1847,6 @@ hling
 hly
 hmeor
 hmoor
-hns
 hoe
 holas
 holds
@@ -1886,7 +1871,6 @@ hrows
 hrupp
 htead
 htown
-hts
 hulme
 hurch
 hurst
@@ -2041,7 +2025,6 @@ izard
 ize
 jor
 juxta
-k's
 kacre
 kcuts
 kdene
@@ -2068,7 +2051,6 @@ knell
 knett
 krigg
 kwith
-l's
 lacot
 laide
 lains
@@ -2108,7 +2090,6 @@ lders
 ldhay
 lding
 ldron
-lds
 ldwin
 ldy
 leach
@@ -2137,7 +2118,6 @@ ley
 ley's
 lfont
 lfred
-lgh
 lgill
 lia
 liams
@@ -2177,17 +2157,14 @@ lloon
 llory
 lloth
 llows
-lls
 lltop
 lly
 lmage
 lme
 lmers
-lms
 lne
 lness
 lnest
-lns
 locks
 lodon
 loe
@@ -2206,8 +2183,6 @@ low
 loway
 lower
 loyds
-lph
-lph's
 lphin
 lpits
 lpole
@@ -2216,11 +2191,9 @@ lsall
 lscoe
 lsdon
 lse
-lsh
 lshes
 lsway
 ltcar
-lth
 ludds
 luice
 lun
@@ -2228,7 +2201,6 @@ lvern
 lvert
 lwall
 lythe
-m's
 man
 man's
 manor
@@ -2242,7 +2214,6 @@ mbers
 mbeth
 mbles
 mbo
-mbs
 mbust
 mcote
 mead
@@ -2269,7 +2240,6 @@ mlets
 mmers
 mmond
 mmons
-mms
 mneys
 mnish
 mon
@@ -2279,15 +2249,12 @@ mpden
 mpner
 mpney
 mpole
-mps
-mpt
 msall
 mshoe
 msted
 munds
 mwith
 myn
-n's
 n-Sea
 nacre
 nadew
@@ -2300,7 +2267,6 @@ nay
 nbear
 nbury
 nce
-nch
 nches
 nchor
 ncing
@@ -2308,7 +2274,6 @@ ncorn
 ncote
 ncott
 ncras
-nct
 ndall
 nde
 ndell
@@ -2318,7 +2283,6 @@ ndish
 ndo
 ndred
 ndrew
-nds
 ndsey
 ndsor
 ndtor
@@ -2339,7 +2303,6 @@ ngers
 ngine
 ngo's
 ngoed
-ngs
 ngues
 ngway
 nhall
@@ -2353,7 +2316,6 @@ niott
 nis
 njack
 nkney
-nks
 nksey
 nleys
 nlock
@@ -2372,7 +2334,6 @@ nners
 nnett
 nning
 nnock
-nns
 nny
 nob
 nocke
@@ -2403,7 +2364,6 @@ nstey
 ntain
 ntake
 ntelo
-nth
 ntice
 ntine
 nting
@@ -2415,10 +2375,8 @@ ntlow
 ntney
 ntral
 ntree
-nts
 ntsey
 nty
-ntz
 nue
 num
 nyard
@@ -2610,7 +2568,6 @@ oyney
 oyntz
 oys
 ozens
-p's
 paine
 pal
 pania
@@ -2655,7 +2612,6 @@ pwith
 quare
 quest
 quite
-r's
 racey
 racks
 racre
@@ -2685,7 +2641,6 @@ rbour
 rbury
 rcall
 rcell
-rch
 rches
 rcote
 rcott
@@ -2698,7 +2653,6 @@ rdine
 rding
 rdour
 rdres
-rds
 rdy
 rea
 reach
@@ -2733,14 +2687,11 @@ rew's
 rewer
 rey
 rfe
-rff
 rge
 rge's
 rgest
-rgh
 rgill
 rgo
-rgs
 rhays
 rhead
 rhunt
@@ -2763,10 +2714,8 @@ ris
 rison
 riths
 riven
-rks
 rlach
 rland
-rld
 rle
 rlegh
 rless
@@ -2777,13 +2726,11 @@ rlock
 rlong
 rlosh
 rlour
-rls
 rlsey
 rmans
 rmere
 rming
 rmoor
-rms
 rnace
 rnage
 rnard
@@ -2796,7 +2743,6 @@ rnhow
 rning
 rnock
 rnold
-rns
 ro'
 roads
 rocks
@@ -2836,24 +2782,19 @@ rrock
 rrold
 rrott
 rrows
-rrs
 rry
 rsall
 rsden
 rse
 rseat
 rsery
-rsh
 rshaw
 rshes
-rsk
 rslow
-rst
 rstal
 rsted
 rstin
 rte
-rth
 rthen
 rthyr
 rties
@@ -2864,7 +2805,6 @@ rtman
 rtney
 rtoft
 rtrim
-rts
 rtsop
 rty
 rub
@@ -2879,7 +2819,6 @@ rym
 rys
 rythe
 rze
-s's
 sal
 sam
 sarts
@@ -2961,13 +2900,11 @@ stow
 stowe
 stray
 strop
-sts
 sture
 sty
 sub
 sways
 swold
-t's
 table
 tacey
 tacre
@@ -2981,7 +2918,6 @@ tates
 tax
 tbois
 tbury
-tch
 tchen
 tches
 tchet
@@ -2997,7 +2933,6 @@ terns
 tes
 tey
 teyne
-th'
 tha
 thank
 the
@@ -3008,7 +2943,6 @@ thorn
 thorpe
 thout
 throw
-ths
 thurs
 thy
 tia
@@ -3052,7 +2986,6 @@ trick
 trock
 trode
 try
-ts'
 tshaw
 tshay
 ttage
@@ -3063,7 +2996,6 @@ tting
 ttles
 ttoms
 ttons
-tts
 tty
 tub
 tubbs
@@ -3215,7 +3147,6 @@ viock
 vocks
 von
 vor
-w's
 waine
 waite
 walls
@@ -3228,7 +3159,6 @@ way
 wbald
 wbold
 wbray
-wdd
 wdler
 wdyke
 well
@@ -3254,7 +3184,6 @@ wle
 wless
 wling
 wmire
-wns
 wood
 woods
 worth
@@ -3264,7 +3193,6 @@ wshaw
 wsker
 wster
 wtown
-wts
 wyche
 wyn
 xbury

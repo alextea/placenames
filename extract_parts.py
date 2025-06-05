@@ -13,6 +13,7 @@ common_suffixes = load_list('./data/common-suffixes.txt')
 prefixes = set()
 word_starts = set()
 word_ends = set()
+common_word_starts = set()
 
 for name in placenames:
     words = name.split()
@@ -37,6 +38,10 @@ for name in placenames:
             if word.lower().endswith(suf.lower()):
                 word_ends.add(suf)
                 matched_suffix = suf
+                # Extract the word start by removing the suffix
+                start_candidate = word[:-len(suf)]
+                if len(start_candidate) > 1:
+                    common_word_starts.add(start_candidate)
                 break
         if not matched_suffix:
             # Take last 3-5 letters as fallback, but only if it contains at least one vowel
@@ -61,5 +66,9 @@ with open('./data/word_starts.txt', 'w', encoding='utf-8') as f:
 with open('./data/word_ends.txt', 'w', encoding='utf-8') as f:
     for e in sorted(word_ends):
         f.write(e + '\n')
+
+with open('./data/common_word_starts.txt', 'w', encoding='utf-8') as f:
+    for s in sorted(common_word_starts):
+        f.write(s + '\n')
 
 print("Granular parts extracted and saved to text files.")
