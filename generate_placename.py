@@ -69,9 +69,37 @@ def generate_common_placenames():
     name = re.sub(r'\s+', ' ', name)
     return name
 
+def generate_rude_placename():
+    # Load rude words from file
+    rude_words = load_list('./data/rude_words.txt')
+
+    use_common_prefix = random.random() < 0.3
+    use_rude_start = random.random() < 0.2  # 20% chance to use rude as start or end
+
+    prefix = random.choice(common_prefixes) if use_common_prefix and common_prefixes else ""
+
+    if use_rude_start and rude_words:
+        root_start = random.choice(rude_words)
+        root_end = random.choice(common_suffixes) if common_suffixes else ""
+    else:
+        root_start = random.choice(common_word_starts) if common_word_starts else ""
+        root_end = random.choice(rude_words) if rude_words else ""
+
+    if root_end[0].isupper():
+        suffix = " "+root_end
+        root_end = random.choice(common_suffixes) if common_suffixes else ""
+        root_end = root_end+suffix
+    root = root_start + root_end
+
+    name = f"{prefix} {root}".strip()
+    name = re.sub(r'\s+', ' ', name)
+    return name
+
 # Example usage:
 # for _ in range(15):
 #     print(generate_placename())
 for _ in range(15):
     print(generate_common_placenames())
+# for _ in range(15):
+#     print(generate_rude_placename())
 
