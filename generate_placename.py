@@ -8,39 +8,43 @@ def load_list(filename):
 common_prefixes = load_list('./data/common-prefixes.txt')
 common_suffixes = load_list('./data/common-suffixes.txt')
 prefixes = load_list('./data/prefixes.txt')
-root_bases = load_list('./data/root_bases.txt')
-roots = load_list('./data/roots.txt')
-suffixes = load_list('./data/suffixes.txt')
+word_starts = load_list('./data/word_starts.txt')
+word_ends = load_list('./data/word_ends.txt')
+word_connectors = load_list('./data/word_connectors.txt')
 
 def generate_placename():
+    # Choose prefix
     use_common_prefix = random.random() < 0.2
     use_prefix = random.random() < 0.4
-    use_root_base = random.random() < 0.6
-    use_suffix = random.random() < 0.2
+    use_connector = random.random() < 0.1
 
-    if use_common_prefix:
-       prefix = random.choice(common_prefixes)
-    elif use_prefix:
+    if use_common_prefix and common_prefixes:
+        prefix = random.choice(common_prefixes)
+    elif use_prefix and prefixes:
         prefix = random.choice(prefixes)
     else:
         prefix = ""
 
-    if use_root_base:
-        root_base = random.choice(root_bases)
-        root_end = random.choice(common_suffixes)
-        root = root_base + root_end
-    else:
-        root = random.choice(roots)
-    
-    if use_suffix:
-        suffix = random.choice(suffixes)
-    else:
-        suffix = ""
-    
-    name = f"{prefix} {root} {suffix}".strip()
-    return re.sub(r'\s+', ' ', name)
+    # Compose root from granular parts
+    root_start = random.choice(word_starts) if word_starts else ""
+    root_end = random.choice(word_ends) if word_ends else ""
+    if root_end[0].isupper(): root_end = " "+root_end
+    root = root_start + root_end
+
+    if use_connector and word_connectors:
+        connector = random.choice(word_connectors)
+        # Randomly insert connector between start and end
+        end_start = random.choice(word_starts) if word_starts else ""
+        end_end = random.choice(word_ends).lower() if word_ends else ""
+        end = end_start + end_end
+        root = f"{root} {connector} {end}"
+
+    # Optionally add a space if prefix is present and root doesn't start with a space
+    name = f"{prefix} {root}".strip()
+    # Clean up double spaces
+    name = re.sub(r'\s+', ' ', name)
+    return name
 
 for _ in range(15):
-    new_name = generate_placename()
-    print(new_name)
+    print(generate_placename())
 

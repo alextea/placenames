@@ -1,4 +1,5 @@
 Aaron's
+Ab
 Abbas
 Abberley
 Abberton
@@ -31,7 +32,7 @@ Abenhall
 Aberdeen
 Aberford
 Abham
-Abingdon
+Abingdon-on-Thames
 Abinger
 Abington
 Abingworth
@@ -303,6 +304,7 @@ Alleytroyds
 Allfield
 Allgreave
 Allhallows
+Allhallows-on-Sea
 Allimore
 Allington
 Allison
@@ -502,8 +504,10 @@ Apperknowle
 Apperley
 Appersett
 Appleby
+Appleby-in-Westmorland
 Appledore
 Appleford
+Appleford-on-Thames
 Applegarth
 Applehaigh
 Applehouse
@@ -512,6 +516,8 @@ Appleshaw
 Appleslade
 Applethwaite
 Appleton
+Appleton-le-Moors
+Appleton-le-Street
 Appletree
 Appletreewick
 Appley
@@ -612,6 +618,7 @@ Arundel
 Asby
 Ascot
 Ascott
+Ascott-under-Wychwood
 Asenby
 Asfordby
 Asgarby
@@ -626,6 +633,7 @@ Ashbrooke
 Ashburton
 Ashbury
 Ashby
+Ashby-de-la-Zouch
 Ashchurch
 Ashcombe
 Ashcott
@@ -677,6 +685,9 @@ Ashtead
 Ashted
 Ashton
 Ashton's
+Ashton-in-Makerfield
+Ashton-on-Ribble
+Ashton-under-Lyne
 Ashtons
 Ashtown
 Ashurst
@@ -686,7 +697,7 @@ Ashwick
 Ashwicken
 Ashwood
 Ashworth
-Askam
+Askam-in-Furness
 Aske
 Askern
 Askerswell
@@ -719,6 +730,7 @@ Astley
 Astmoor
 Aston
 Aston's
+Aston-on-Trent
 Astrop
 Astrope
 Astwell
@@ -869,6 +881,7 @@ Bache
 Bachelor's
 Back
 Back's
+Back-of-the-Brook
 Backbarrow
 Backbower
 Backbury
@@ -1024,7 +1037,6 @@ Bangors
 Bangrove
 Banham
 Banister's
-Bank
 Bank's
 Bankend
 Bankfoot
@@ -1097,7 +1109,7 @@ Barkbeth
 Barkby
 Barkerend
 Barkers
-Barkestone
+Barkestone-le-Vale
 Barkham
 Barkhouse
 Barking
@@ -1182,8 +1194,8 @@ Barrelhill
 Barrets
 Barrington
 Barripper
-Barrow
 Barrow's
+Barrow-in-Furness
 Barroway
 Barrowby
 Barrowcliff
@@ -1209,6 +1221,12 @@ Bartley
 Bartlow
 Bartom's
 Barton
+Barton-le-Clay
+Barton-le-Street
+Barton-le-Willows
+Barton-on-the-Heath
+Barton-under-Needwood
+Barton-upon-Humber
 Bartons
 Bartonsham
 Barugh
@@ -1320,7 +1338,6 @@ Baxter
 Baxter's
 Baxterley
 Baxters
-Bay
 Baybridge
 Baycliff
 Baydon
@@ -1512,6 +1529,7 @@ Beesby
 Beeson
 Beesthorpe
 Beeston
+Beeston-brook
 Beetham
 Beetley
 Beevers
@@ -1583,6 +1601,7 @@ Beltinge
 Beltingham
 Beltoft
 Belton
+Belton-in-Rutland
 Beltring
 Belvedere
 Belvidere
@@ -1686,6 +1705,7 @@ Berryhill
 Berrylands
 Berrynarbor
 Berwick
+Berwick-upon-Tweed
 Beryl
 Bescaby
 Bescar
@@ -1714,7 +1734,7 @@ Betsham
 Betteshanger
 Bettiscombe
 Betton
-Bettws
+Bettws-y-Crwyn
 Betty's
 Beufre
 Beveley
@@ -1781,7 +1801,7 @@ Biddlestone
 Biddulph
 Bideford
 Bidfield
-Bidford
+Bidford-on-Avon
 Bidston
 Bidwell
 Bielby
@@ -1790,6 +1810,7 @@ Bierton
 Bifrons
 Big
 Bigbury
+Bigbury-on-Sea
 Bigby
 Bigfrith
 Biggar
@@ -2337,6 +2358,9 @@ Bolstone
 Boltby
 Bolter
 Bolton
+Bolton-by-Bowland
+Bolton-le-Sands
+Bolton-on-Swale
 Boltonfellend
 Boltongate
 Bolts
@@ -2507,6 +2531,7 @@ Bottledown
 Bottlesford
 Bottling
 Bottom
+Bottom-of-the-Oven
 Bottomley
 Bottoms
 Botton
@@ -2546,6 +2571,8 @@ Bournside
 Bournstream
 Bournville
 Bourton
+Bourton-on-the-Hill
+Bourton-on-the-Water
 Bousfield
 Boustead
 Bouth
@@ -2603,7 +2630,8 @@ Bowling
 Bowlish
 Bowmans
 Bowmanstead
-Bowness
+Bowness-on-Solway
+Bowness-on-Windermere
 Bownham
 Bowood
 Bowridge
@@ -2689,6 +2717,8 @@ Bradenstoke
 Brades
 Bradfield
 Bradford
+Bradford-on-Avon
+Bradford-on-Tone
 Bradgate
 Bradiford
 Brading
@@ -2807,6 +2837,7 @@ Bratton
 Braughing
 Brauncewell
 Braunston
+Braunston-in-Rutland
 Braunstone
 Braunton
 Brawby
@@ -2918,7 +2949,6 @@ Bridekirk
 Bridestones
 Bridestowe
 Bridford
-Bridge
 Bridgefoot
 Bridgehampton
 Bridgehill
@@ -2968,6 +2998,7 @@ Brightor
 Brightside
 Brightwalton
 Brightwell
+Brightwell-cum-Sotwell
 Brigmerston
 Brignall
 Brigshaw
@@ -3156,6 +3187,7 @@ Bromham
 Bromley
 Bromlow
 Brompton
+Brompton-on-Swale
 Bromsash
 Bromsgrove
 Bromson
@@ -3167,7 +3199,6 @@ Bromyard
 Broncroft
 Brondesbury
 Bronygarth
-Brook
 Brook's
 Brookbank
 Brookbottom
@@ -3196,6 +3227,7 @@ Brooks
 Brooksbottoms
 Brooksby
 Brookside
+Brookside-Ascot
 Brookstreet
 Brookthorpe
 Brookvale
@@ -3322,6 +3354,7 @@ Bryants
 Bryers
 Brympton
 Bryn
+Bryn-y-Castell
 Bryning
 Brynsworthy
 Bubbenhall
@@ -3378,6 +3411,7 @@ Buddileigh
 Buddle
 Budds
 Bude
+Bude-Haven
 Budege's
 Budge's
 Budlake
@@ -3515,7 +3549,6 @@ Burlton
 Burmantofts
 Burmarsh
 Burmington
-Burn
 Burn's
 Burnage
 Burnaston
@@ -3535,6 +3568,7 @@ Burngate
 Burngreave
 Burngullow
 Burnham
+Burnham-on-Crouch
 Burnhill
 Burnholme
 Burnhope
@@ -3601,6 +3635,8 @@ Burtle
 Burtoft
 Burton
 Burton's
+Burton-in-Kendal
+Burton-le-Coggles
 Burtonfields
 Burtree
 Burwardsley
@@ -3738,11 +3774,11 @@ Cadney
 Cadshaw
 Cadwell
 Caenby
-Caer
+Caer-Lleon
 Cage
 Cainscross
 Cairnbridge
-Caister
+Caister-on-Sea
 Caistor
 Caistron
 Cake
@@ -3908,6 +3944,7 @@ Canwick
 Canworthy
 Cape
 Capel
+Capel-le-Ferne
 Capenhurst
 Capernwray
 Capesthorne
@@ -3970,6 +4007,8 @@ Carlingill
 Carlisle
 Carloggas
 Carlton
+Carlton-le-Moorland
+Carlton-on-Trent
 Carluddon
 Carlyon
 Carminow
@@ -4183,6 +4222,7 @@ Caynham
 Caythorpe
 Cayton
 Cefn
+Cefn-y-Blodwel
 Cellarhead
 Cellarhill
 Celleron
@@ -4253,6 +4293,8 @@ Change
 Channel's
 Chantry
 Chapel
+Chapel-en-le-Frith
+Chapel-le-Dale
 Chapelbridge
 Chapelburn
 Chapelend
@@ -4296,6 +4338,7 @@ Charlock
 Charlotte
 Charlstown
 Charlton
+Charlton-on-Otmoor
 Charltonbrook
 Charltons
 Charlwood
@@ -4451,6 +4494,7 @@ Chessington
 Chessmount
 Chestall
 Chester
+Chester-le-Street
 Chesterblade
 Chesterfield
 Chesterhill
@@ -4612,6 +4656,7 @@ Chopwell
 Chorley
 Chorleywood
 Chorlton
+Chorlton-cum-hardy
 Chorltonville
 Choulston
 Choulton
@@ -4676,7 +4721,7 @@ Cirencester
 Ciss
 Citadilla
 City
-Clacton
+Clacton-on-Sea
 Cladswell
 Claine
 Claines
@@ -4698,6 +4743,7 @@ Clapp
 Clapper
 Clappersgate
 Clapton
+Clapton-on-the-Hill
 Clapworthy
 Clara
 Claravale
@@ -4751,6 +4797,9 @@ Claypole
 Clays
 Claythorpe
 Clayton
+Clayton-le-Dale
+Clayton-le-Moors
+Clayton-le-Woods
 Claytons
 Claywell
 Clayworth
@@ -5130,7 +5179,6 @@ Colwick
 Colworth
 Colyford
 Colyton
-Combe
 Combebow
 Combegreen
 Combeinteignhead
@@ -5359,7 +5407,7 @@ Coslany
 Cosmore
 Cossall
 Cossington
-Cost
+Cost-is-Lost
 Costa
 Costessey
 Costhorpe
@@ -5445,7 +5493,7 @@ Coup
 Coupland
 Coursehorn
 Coursley
-Court
+Court-at-Street
 Courteenhall
 Courtfield
 Courtfleet
@@ -5558,8 +5606,9 @@ Craghead
 Crags
 Cragside
 Crahan
-Craig
 Craig's
+Craig-Llwyn
+Craig-llwyn
 Craignant
 Craigwell
 Crake
@@ -5722,6 +5771,7 @@ Croesau
 Croford
 Croft
 Croft's
+Croft-on-Tees
 Crofthandy
 Croftlands
 Crofton
@@ -5765,6 +5815,7 @@ Cropthorne
 Cropton
 Cropwell
 Crosby
+Crosby-on-Eden
 Crosbymoor
 Crosbythwaite
 Croscombe
@@ -5772,7 +5823,7 @@ Crosemere
 Crosen
 Crosland
 Croslands
-Cross
+Cross-at-Hand
 Crossacres
 Crossbank
 Crossbarrow
@@ -5841,6 +5892,8 @@ Crownthorpe
 Crowntown
 Crowpill
 Crows
+Crows-an-Wra
+Crows-an-wra
 Crowshill
 Crowsley
 Crowsnest
@@ -6036,7 +6089,6 @@ Daisyfield
 Dalbury
 Dalby
 Dalderby
-Dale
 Daleacre
 Dalebank
 Dalebrook
@@ -6062,6 +6114,9 @@ Dallowgill
 Dalscote
 Dalston
 Dalton
+Dalton-in-Furness
+Dalton-le-Dale
+Dalton-on-Tees
 Dalwood
 Dam
 Damask
@@ -6180,12 +6235,12 @@ Daylesford
 Daymer
 Daywall
 Dazel
+De
 Dead
 Deadman's
 Deadwater
 Deaf
 Deal
-Dean
 Dean's
 Deancombe
 Deane
@@ -6941,6 +6996,8 @@ Easole
 Eason's
 East
 East's
+East-Thorpe
+East-the-Water
 Eastacombe
 Eastacott
 Eastborough
@@ -7064,7 +7121,7 @@ Edgbaston
 Edgcote
 Edgcott
 Edgcumbe
-Edge
+Edge-end
 Edgebolton
 Edgefield
 Edgefold
@@ -7118,7 +7175,7 @@ Edwinstowe
 Edworth
 Edwyn
 Eel
-Efail
+Efail-Fach
 Effingham
 Efflinch
 Efford
@@ -7206,6 +7263,7 @@ Elleron
 Ellers
 Ellershope
 Ellerton
+Ellerton-on-Swale
 Ellesborough
 Ellesmere
 Elley
@@ -7321,7 +7379,8 @@ Engine
 England
 Englebourne
 Englefield
-Englesea
+Englesea-Brook
+Englesea-brook
 Engleton
 English
 Englishcombe
@@ -7679,7 +7738,6 @@ Felhampton
 Felixkirk
 Felixstowe
 Felkington
-Fell
 Felldownhead
 Fellgarth
 Fellgate
@@ -7761,7 +7819,6 @@ Fiddlers
 Fiddlers'
 Fideoak
 Fidlers
-Field
 Fielden
 Fieldhead
 Fieldon
@@ -7920,6 +7977,7 @@ Flecknoe
 Fledborough
 Fleeden
 Fleet
+Fleet-Downs
 Fleete
 Fleetend
 Fleeter's
@@ -8025,7 +8083,6 @@ Forbury
 Force
 Forceleap
 Forcett
-Ford
 Ford's
 Forda
 Fordbridge
@@ -8051,6 +8108,7 @@ Foregate
 Foreland
 Foremark
 Forest
+Forest-in-Teesdale
 Forestburn
 Forestdale
 Forestside
@@ -8252,7 +8310,7 @@ Fring
 Fringford
 Friningham
 Frinsted
-Frinton
+Frinton-on-Sea
 Frisby
 Friskney
 Friston
@@ -8505,7 +8563,6 @@ Gastard
 Gasthorpe
 Gaston
 Gatcombe
-Gate
 Gateacre
 Gatebeck
 Gatefoot
@@ -8883,7 +8940,8 @@ Gorefield
 Gores
 Gorhambury
 Goring
-Gorleston
+Goring-by-Sea
+Gorleston-on-Sea
 Gornalwood
 Gorran
 Gorse
@@ -9040,13 +9098,13 @@ Greatmoor
 Greatness
 Greatpark
 Greatstone
+Greatstone-on-Sea
 Greatwood
 Greatworth
 Greave
 Greavefold
 Greaves
 Grebby
-Green
 Greenacres
 Greenaway
 Greenbank
@@ -9212,7 +9270,7 @@ Grizebeck
 Grizedale
 Groby
 Gromford
-Gron
+Gron-Nen
 Groombridge
 Grosmont
 Grosvenor
@@ -9220,7 +9278,6 @@ Groton
 Grotton
 Groundslow
 Groundwell
-Grove
 Grovebury
 Grovehill
 Grovely
@@ -9494,6 +9551,7 @@ Halterworth
 Haltham
 Haltoft
 Halton
+Halton-Lea-Gate
 Haltwhistle
 Halvergate
 Halviggan
@@ -9502,8 +9560,8 @@ Halwell
 Halwill
 Halwin
 Halwyn
-Ham
 Hamble
+Hamble-le-Rice
 Hambleden
 Hambledon
 Hambleton
@@ -9918,8 +9976,8 @@ Havergate
 Haverhill
 Haverholme
 Haverigg
-Havering
 Havering's
+Havering-atte-Bower
 Haveringland
 Haverscroft
 Haversham
@@ -9993,6 +10051,7 @@ Haxey
 Haxted
 Haxton
 Hay
+Hay-a-Park
 Haybridge
 Haycliffe
 Hayden
@@ -10087,7 +10146,6 @@ Hearts
 Heasandford
 Heasley
 Heater
-Heath
 Heathbrook
 Heathcote
 Heathencote
@@ -10132,6 +10190,7 @@ Heckley
 Heckmondwike
 Heddington
 Heddon
+Heddon-on-the-Wall
 Hedenham
 Hedge
 Hedgefield
@@ -10259,9 +10318,11 @@ Henlade
 Henleaze
 Henley
 Henley's
+Henley-in-Arden
+Henley-on-Thames
 Henlle
 Henlow
-Henly
+Henly-in-Arden
 Henmoor
 Hennock
 Hennor
@@ -10349,6 +10410,7 @@ Hetherson
 Hethpool
 Hett
 Hetton
+Hetton-le-Hole
 Heugh
 Heveningham
 Hever
@@ -10472,7 +10534,7 @@ Hildersley
 Hilderstone
 Hilderthorpe
 Hilgay
-Hill
+Hill-field
 Hillam
 Hillborough
 Hillbourne
@@ -10556,6 +10618,7 @@ Hinning
 Hinstock
 Hintlesham
 Hinton
+Hinton-in-the-Hedges
 Hints
 Hinwick
 Hinxhill
@@ -10695,6 +10758,7 @@ Hollacombe
 Hollam
 Hollamoor
 Holland
+Holland-on-Sea
 Hollands
 Hollesley
 Holleth
@@ -10745,7 +10809,6 @@ Holmbridge
 Holmbury
 Holmbush
 Holmcroft
-Holme
 Holmebridge
 Holmer
 Holmes
@@ -10774,7 +10837,6 @@ Holnest
 Holnicote
 Holsome
 Holsworthy
-Holt
 Holtby
 Holton
 Holtridge
@@ -10842,6 +10904,8 @@ Hooe
 Hoohill
 Hook
 Hook's
+Hook-a-Gate
+Hook-a-gate
 Hooke
 Hooker
 Hookfield
@@ -10987,6 +11051,7 @@ Horspath
 Horstead
 Horsted
 Horton
+Horton-cum-Studley
 Hortonlane
 Hortonwood
 Horwich
@@ -11005,10 +11070,13 @@ Hothorpe
 Hoton
 Hotwells
 Hough
+Hough-on-the-Hill
 Houghall
 Hougham
 Hougher
 Houghton
+Houghton-le-Side
+Houghton-le-Spring
 Houghwood
 Houlsyke
 Hound
@@ -11212,7 +11280,6 @@ Hurlston
 Hurn
 Hursey
 Hursley
-Hurst
 Hurstbourne
 Hurstead
 Hurstley
@@ -11233,6 +11300,7 @@ Huthwaite
 Huttock
 Huttoft
 Hutton
+Hutton-le-Hole
 Huxham
 Huxham's
 Huxtable's
@@ -11318,6 +11386,7 @@ Immingham
 Impington
 Impney
 Ince
+Ince-in-Makerfield
 Inchbrook
 Indian
 Inett
@@ -11683,6 +11752,7 @@ Kermincham
 Kerne
 Kernstone
 Kerridge
+Kerridge-end
 Kerriers
 Kerris
 Kerrow
@@ -11921,6 +11991,7 @@ Kirby
 Kirdford
 Kirk
 Kirkandrews
+Kirkandrews-on-Eden
 Kirkbampton
 Kirkbarrow
 Kirkbride
@@ -12003,8 +12074,10 @@ Knarr
 Knarsdale
 Knathole
 Knatts
-Knave
 Knave's
+Knave-Go-By
+Knave-go-by
+Knave-in-hole
 Knaves
 Knavesmire
 Knebworth
@@ -12015,8 +12088,8 @@ Kneeton
 Knenhall
 Knepp
 Knettishall
-Knight
 Knight's
+Knight-Ley
 Knightacott
 Knightcote
 Knightcott
@@ -12090,8 +12163,10 @@ Kyneton
 Kynnersley
 Kyre
 Kyrewood
+La
 Labby
-Labour
+Labour-in-Vain
+Labour-in-vain
 Lace
 Laceby
 Lacey
@@ -12216,6 +12291,8 @@ Landulph
 Landwade
 Landywood
 Lane
+Lane-End
+Lane-end
 Laneast
 Lanefoot
 Laneham
@@ -12360,6 +12437,7 @@ Latton
 Laughern
 Laughterton
 Laughton
+Laughton-en-le-Morthen
 Launcells
 Launceston
 Launcherley
@@ -12389,10 +12467,13 @@ Lawnswood
 Lawrence
 Lawshall
 Lawton
+Lawton-Gate
+Lawton-gate
 Laxfield
 Laxton
 Laycock
 Layer
+Layer-de-la-Haye
 Layerthorpe
 Laygate
 Layhams
@@ -12470,6 +12551,8 @@ Ledston
 Ledstone
 Ledwell
 Lee
+Lee-on-the-Solent
+Lee-over-Sands
 Leebotwood
 Leece
 Leeches
@@ -12497,7 +12580,7 @@ Leggatt
 Legonna
 Legsby
 Leicester
-Leigh
+Leigh-on-Sea
 Leigham
 Leighland
 Leighswood
@@ -12588,7 +12671,6 @@ Lewstone
 Lewth
 Lewtrenchard
 Lexden
-Ley
 Leybourne
 Leybrook
 Leyburn
@@ -12602,7 +12684,7 @@ Leymill
 Leymoor
 Leys
 Leysbourne
-Leysdown
+Leysdown-on-Sea
 Leysters
 Leythorne
 Leyton
@@ -12694,7 +12776,7 @@ Lincoln's
 Lincomb
 Lincombe
 Lind
-Lindal
+Lindal-in-Furness
 Lindale
 Linden
 Lindeth
@@ -12752,6 +12834,7 @@ Linthouses
 Linthurst
 Linthwaite
 Linton
+Linton-on-Ouse
 Lintz
 Lintzford
 Lintzgarth
@@ -12789,6 +12872,7 @@ Lithiack
 Litlington
 Litmarsh
 Little
+Little-moss
 Littlebeck
 Littleborough
 Littlebourne
@@ -12817,9 +12901,10 @@ Littleover
 Littleport
 Littler
 Littlestead
-Littlestone
+Littlestone-on-Sea
 Littlethorpe
 Littleton
+Littleton-upon-Severn
 Littletown
 Littlewick
 Littlewindsor
@@ -12854,6 +12939,7 @@ Llanyblodwel
 Llawnt
 Lloyds
 Llwyn
+Llwyn-y-go
 Llwyntidmon
 Llynclys
 Loachbrook
@@ -13200,12 +13286,14 @@ Lyatts
 Lydbury
 Lydcott
 Lydd
+Lydd-on-Sea
 Lydden
 Lyddington
 Lyde
 Lydeard
 Lydeway
 Lydford
+Lydford-on
 Lydgate
 Lydham
 Lydiard
@@ -13393,7 +13481,6 @@ Manningham
 Mannings
 Mannington
 Manningtree
-Manor
 Mansel
 Mansell
 Mansergh
@@ -13520,6 +13607,7 @@ Marshmoor
 Marshside
 Marshwood
 Marske
+Marske-by-the-Sea
 Marsland
 Marslands
 Marston
@@ -13543,6 +13631,8 @@ Martlesham
 Martley
 Martock
 Marton
+Marton-in-the-Forest
+Marton-le-Moor
 Martyr
 Martyr's
 Martyrs
@@ -13630,7 +13720,6 @@ Mays
 Mayshill
 Maythorn
 Maythorne
-Mead
 Meadgate
 Meadle
 Meadow
@@ -13696,7 +13785,7 @@ Melcombe
 Meldon
 Meldreth
 Melford
-Melin
+Melin-y-Grogue
 Melkinthorpe
 Melkridge
 Melksham
@@ -13863,6 +13952,8 @@ Middlestone
 Middlestown
 Middlethorpe
 Middleton
+Middleton-on-Leven
+Middleton-on-Sea
 Middletown
 Middleway
 Middlewich
@@ -13972,6 +14063,7 @@ Milstead
 Milston
 Milthorpe
 Milton
+Milton-under-Wychwood
 Miltoncombe
 Milvain
 Milverton
@@ -14183,6 +14275,7 @@ Moreleigh
 Moresby
 Morestead
 Moreton
+Moreton-in-Marsh
 Moretonhampstead
 Moretonwood
 Morgan's
@@ -14211,6 +14304,7 @@ Mortimer's
 Mortlake
 Mortomley
 Morton
+Morton-on-Swale
 Morvah
 Morval
 Morville
@@ -14396,6 +14490,7 @@ Mytholmes
 Mytholmroyd
 Mythop
 Myton
+Myton-on-Swale
 Mytton
 Naas
 Nab
@@ -14436,6 +14531,8 @@ Nansladron
 Nanstallon
 Nanswhyden
 Nant
+Nant-y-Caws
+Nant-y-Gollen
 Nantewas
 Nantithet
 Nantmawr
@@ -14556,6 +14653,7 @@ Netherland
 Netherley
 Nethermore
 Netherne
+Netherne-on-the-Hill
 Netheroyd
 Netherpool
 Netherseal
@@ -14590,11 +14688,14 @@ Nevison
 New
 Newall
 Newark
+Newark-on-Trent
 Newball
 Newbarn
 Newbarns
 Newbigg
 Newbiggin
+Newbiggin-by-the-Sea
+Newbiggin-on-Lune
 Newbold
 Newbolds
 Newborough
@@ -14609,6 +14710,7 @@ Newbury
 Newbury's
 Newby
 Newcastle
+Newcastle-under-Lyme
 Newchapel
 Newchurch
 Newclosefield
@@ -14674,9 +14776,17 @@ Newthorpe
 Newtimber
 Newtoft
 Newton
+Newton-by-Chester
+Newton-in-Cartmel
+Newton-in-the-Isle
+Newton-le-Willows
+Newton-on-Ouse
+Newton-on-Rawcliffe
+Newton-with-Scales
 Newtonhurst
 Newtonia
 Newtown
+Newtown-in-St
 Newyears
 Nextend
 Nib
@@ -14702,6 +14812,7 @@ Nip
 Nithen
 Nixon
 Nizels
+No
 Noah's
 Noak
 Noar
@@ -14765,6 +14876,7 @@ Normandy
 Normans'
 Normanston
 Normanton
+Normanton-on-Cliffe
 Normoss
 Nornay
 Norney
@@ -14834,6 +14946,10 @@ Northwood
 Nortoft
 Norton
 Norton's
+Norton-Juxta-Twycross
+Norton-in-the-Moors
+Norton-le-Clay
+Norton-on-Derwent
 Nortonsend
 Norwell
 Norwich
@@ -15136,6 +15252,7 @@ Orston
 Orthwaite
 Ortner
 Orton
+Orton-on-the-Hill
 Orwell
 Osbaldeston
 Osbaldwick
@@ -15233,6 +15350,7 @@ Ouzlewell
 Oval
 Ovenden
 Over
+Over-ross
 Overbridge
 Overbury
 Overby
@@ -15282,6 +15400,7 @@ Owlsmoor
 Owlswick
 Owlthorpe
 Owmby
+Owmby-by-Spital
 Ownham
 Owslebury
 Owsthorpe
@@ -15290,6 +15409,7 @@ Owstwick
 Owthorne
 Owthorpe
 Owton
+Ox
 Oxbarn
 Oxborough
 Oxbridge
@@ -15298,6 +15418,7 @@ Oxclose
 Oxcombe
 Oxcroft
 Oxen
+Oxen-le-Fields
 Oxendon
 Oxenhall
 Oxenholme
@@ -15367,7 +15488,7 @@ Pailton
 Pain's
 Paines
 Painleyhill
-Pains
+Pains-Hill
 Painsthorpe
 Painswhin
 Painswick
@@ -15416,6 +15537,7 @@ Pannal
 Panshanger
 Panson
 Pant
+Pant-glas
 Pantersbridge
 Panton
 Panxworth
@@ -15437,7 +15559,6 @@ Pardshaw
 Parham
 Paris
 Parish
-Park
 Parkbroom
 Parkbury
 Parkend
@@ -15626,6 +15747,11 @@ Pembridge
 Pembroke
 Pembury
 Pen
+Pen-Alt
+Pen-allt
+Pen-pwll-sond
+Pen-y-Park
+Pen-y-coed
 Penair
 Penally
 Penare
@@ -15663,6 +15789,7 @@ Pengover
 Pengreep
 Penguithal
 Penhale
+Penhale-an-drea
 Penhallick
 Penhallow
 Penhalurick
@@ -15740,11 +15867,17 @@ Pentney
 Penton
 Pentonville
 Pentre
+Pentre-Cefn
+Pentre-Coed
+Pentre-Jack
+Pentre-cefn
+Pentre-clawdd
 Pentregaer
 Pentreheyling
 Pentrehyling
 Pentrich
 Pentrichlane
+Pentrichlane-end
 Pentruse
 Penwerris
 Penwethers
@@ -16061,6 +16194,8 @@ Pizien
 Pizwell
 Plaidy
 Plain
+Plain-An-Gwarry
+Plain-an-Gwarry
 Plainmoor
 Plains
 Plainsfield
@@ -16226,6 +16361,7 @@ Ponsonby
 Ponsongath
 Ponsworthy
 Pont
+Pont-Faen
 Pontefract
 Ponteland
 Pontesbury
@@ -16239,7 +16375,7 @@ Ponts
 Pontshill
 Ponty
 Pooksgreen
-Pool
+Pool-in-Wharfedale
 Poolbrook
 Poole
 Poolehill
@@ -16289,6 +16425,8 @@ Portfields
 Portgate
 Portgwarra
 Porth
+Porth-y-Waen
+Porth-y-waen
 Porthallow
 Porthcothan
 Porthcuel
@@ -16328,6 +16466,7 @@ Portscatho
 Portsdown
 Portsea
 Portslade
+Portslade-by-Sea
 Portsmouth
 Portswood
 Portway
@@ -16384,6 +16523,7 @@ Poulston
 Poulstone
 Poultney
 Poulton
+Poulton-le-Fylde
 Pound
 Pounda
 Poundbury
@@ -16428,6 +16568,7 @@ Pratt's
 Pratthall
 Pray
 Praze
+Praze-an-Beeble
 Prazeruth
 Prazey
 Predannack
@@ -16448,6 +16589,9 @@ Presthope
 Prestleigh
 Prestolee
 Preston
+Preston-le-Skerne
+Preston-on-Tees
+Preston-under-Scar
 Prestwich
 Prestwick
 Prestwold
@@ -17337,6 +17481,9 @@ Roscarrock
 Roscow
 Roscroggan
 Rose
+Rose-an-Grouse
+Rose-in-Valley
+Rose-in-the-bush
 Roseacre
 Rosebank
 Roseberry
@@ -17380,6 +17527,7 @@ Rosley
 Roslin
 Rosliston
 Ross
+Ross-on-Wye
 Rossall
 Rossendale
 Rossett
@@ -17457,6 +17605,7 @@ Routh
 Routster
 Roving
 Row
+Row-of-Trees
 Rowanfield
 Rowarth
 Rowbarton
@@ -17642,7 +17791,7 @@ Rutton
 Ruxhill
 Ruxley
 Ruxton
-Ruyton
+Ruyton-XI-Towns
 Ryal
 Ryall
 Ryarsh
@@ -17678,6 +17827,7 @@ Rynal
 Rysome
 Ryther
 Ryton
+Ryton-on-Dunsmore
 Sabden
 Sackers
 Sackettshill
@@ -17699,7 +17849,7 @@ Saintbury
 Saintoft
 Salcey
 Salcombe
-Salcott
+Salcott-cum-Virley
 Salden
 Sale
 Saleby
@@ -17727,7 +17877,7 @@ Salta
 Saltaire
 Saltash
 Saltbrook
-Saltburn
+Saltburn-by-the-Sea
 Saltby
 Saltcoats
 Saltcotes
@@ -17786,6 +17936,7 @@ Sanderstead
 Sandfield
 Sandfields
 Sandford
+Sandford-on-Thames
 Sandgate
 Sandgates
 Sandhall
@@ -18462,6 +18613,8 @@ Shipmeadow
 Shippea
 Shippon
 Shipton
+Shipton-on-Cherwell
+Shipton-under-Wychwood
 Shirburn
 Shirdley
 Shire
@@ -18508,6 +18661,7 @@ Shore
 Shoreditch
 Shoregill
 Shoreham
+Shoreham-by-Sea
 Shoresdean
 Shoresgreen
 Shoreston
@@ -18635,7 +18789,6 @@ Siddick
 Siddington
 Siddle
 Siddow
-Side
 Sidebottom
 Sidehead
 Sidehill
@@ -18782,6 +18935,7 @@ Skiprigg
 Skips
 Skipsea
 Skipton
+Skipton-on-Swale
 Skipwith
 Skirbeck
 Skircoat
@@ -19054,6 +19208,7 @@ Sourton
 Soutergate
 Soutermoor
 South
+South-end
 Southall
 Southam
 Southampton
@@ -19073,6 +19228,7 @@ Southcrest
 Southdene
 Southease
 Southend
+Southend-on-Sea
 Southerfell
 Southerfield
 Southerham
@@ -19270,6 +19426,7 @@ Spyway
 Squabb
 Squirrel
 Squirrels
+St
 St.
 Stable
 Stableford
@@ -19303,6 +19460,7 @@ Staincliffe
 Staincross
 Staindrop
 Staines
+Staines-upon-Thames
 Stainfield
 Stainforth
 Staining
@@ -19365,6 +19523,8 @@ Stanesgate
 Stanfield
 Stanfields
 Stanford
+Stanford-le-Hope
+Stanford-on-Avon
 Stanfree
 Stanger
 Stangerthwaite
@@ -19397,6 +19557,7 @@ Stansted
 Stanswood
 Stanthwaite
 Stanton
+Stanton-on-the-Wolds
 Stantonbury
 Stantor
 Stantway
@@ -19404,6 +19565,7 @@ Stanwardine
 Stanway
 Stanwell
 Stanwick
+Stanwick-St-John
 Stanwix
 Stanworth
 Stanycliffe
@@ -19462,6 +19624,7 @@ Staunch
 Staunton
 Staupes
 Staveley
+Staveley-in-Cartmel
 Staverton
 Stawell
 Stawley
@@ -19469,7 +19632,6 @@ Staxton
 Staygate
 Staynall
 Staythorpe
-Stead
 Steam
 Stean
 Steanbow
@@ -19615,6 +19777,7 @@ Stockshill
 Stocksmoor
 Stockstreet
 Stockton
+Stockton-on-Tees
 Stockwell
 Stockwood
 Stodday
@@ -19624,6 +19787,10 @@ Stoford
 Stogumber
 Stogursey
 Stoke
+Stoke-by-Clare
+Stoke-by-Nayland
+Stoke-on-Trent
+Stoke-upon-Trent
 Stokeford
 Stokegorse
 Stokeham
@@ -19643,8 +19810,9 @@ Stonaford
 Stonald
 Stonar
 Stondon
-Stone
 Stone's
+Stone-Edge
+Stone-edge
 Stonea
 Stoneacton
 Stoneborough
@@ -19735,16 +19903,17 @@ Stoupe
 Stour
 Stourbridge
 Stourpaine
-Stourport
+Stourport-on-Severn
 Stourscombe
 Stourton
 Stout
 Stoven
 Stover
-Stow
 Stow's
+Stow-on-the-Wold
 Stowbridge
 Stowe
+Stowe-by-Chartley
 Stowehill
 Stowell
 Stowey
@@ -19771,6 +19940,7 @@ Strangford
 Stranton
 Stratfield
 Stratford
+Stratford-upon-Avon
 Stratfordbridge
 Stratton
 Strawberry
@@ -19797,6 +19967,8 @@ Strethall
 Stretham
 Strettington
 Stretton
+Stretton-on-Dunsmore
+Stretton-on-Fosse
 Strickland
 Strine
 Strines
@@ -19929,6 +20101,7 @@ Sunbank
 Sunbiggin
 Sunbrick
 Sunbury
+Sunbury-on-Thames
 Sundayshill
 Sunderland
 Sunderlandwick
@@ -19973,6 +20146,10 @@ Suton
 Sutterby
 Sutterton
 Sutton
+Sutton-in-Craven
+Sutton-on-the-Forest
+Sutton-under-Brailes
+Sutton-under-Whitestonecliffe
 Suttons
 Swaby
 Swaddale
@@ -20200,7 +20377,7 @@ Tanton
 Tanton's
 Tanvats
 Tanwood
-Tanworth
+Tanworth-in-Arden
 Taplow
 Tapnage
 Tappard
@@ -20393,7 +20570,7 @@ Thiefside
 Thimble
 Thimbleby
 Thinford
-Thing
+Thing-Hill
 Thingley
 Thingwall
 Thirkleby
@@ -20426,7 +20603,7 @@ Thorlby
 Thorley
 Thormanby
 Thorn
-Thornaby
+Thornaby-on-Tees
 Thornage
 Thornborough
 Thornbridge
@@ -20467,12 +20644,19 @@ Thornsett
 Thornship
 Thornthwaite
 Thornton
+Thornton-le-Beans
+Thornton-le-Clay
+Thornton-le-Dale
+Thornton-le-Moor
+Thornton-le-Moors
+Thornton-le-Street
 Thornwood
 Thornycroft
 Thornyhaugh
 Thoroton
 Thorp
-Thorpe
+Thorpe-le-Soken
+Thorpe-on-the-Hill
 Thorpefield
 Thorpeness
 Thorpland
@@ -20811,6 +20995,7 @@ Toothill
 Tooting
 Tootle
 Top
+Top-o-th'
 Topcliffe
 Topcroft
 Topham
@@ -20875,7 +21060,7 @@ Tottlebank
 Tottleworth
 Totton
 Totty's
-Touchen
+Touchen-End
 Touches
 Toulston
 Toulton
@@ -20893,6 +21078,7 @@ Towersey
 Towhouse
 Town
 Town's
+Town-End
 Townend
 Townfield
 Townfoot
@@ -20943,7 +21129,7 @@ Trease
 Treassowe
 Treath
 Treator
-Trebah
+Trebah-Wartha
 Trebarber
 Trebarrow
 Trebartha
@@ -20988,7 +21174,7 @@ Treeton
 Treeve
 Treeza
 Trefanny
-Trefar
+Trefar-Clawdd
 Treflach
 Trefonen
 Treforda
@@ -21542,7 +21728,7 @@ Tylers
 Tylerscross
 Tyley
 Tylney
-Tyn
+Tyn-y-coed
 Tyndall's
 Tyne
 Tynegreen
@@ -21635,6 +21821,8 @@ Unsworth
 Unthank
 Unwin
 Uny
+Up
+Up-Mudford
 Upavon
 Upchurch
 Upcott
@@ -21919,6 +22107,7 @@ Walsal
 Walsall
 Walsden
 Walsgrave
+Walsgrave-on-Sowe
 Walshaw
 Walshford
 Walsoken
@@ -21933,6 +22122,12 @@ Walthamstow
 Walthew
 Walthwaite
 Walton
+Walton-Le-Dale
+Walton-le-Dale
+Walton-on-Thames
+Walton-on-Trent
+Walton-on-the-Hill
+Walton-on-the-Naze
 Waltons
 Walverden
 Walwick
@@ -22055,6 +22250,7 @@ Wartling
 Wartnaby
 Warton
 Warwick
+Warwick-on-Eden
 Warwicksland
 Wasdale
 Waseley
@@ -22254,9 +22450,9 @@ Weld
 Weldbank
 Weldon
 Welford
+Welford-on-Avon
 Welham
 Welhambridge
-Well
 Welland
 Wellbank
 Wellbrook
@@ -22325,6 +22521,7 @@ Wereham
 Wereton
 Wergs
 Wern
+Wern-Ddu
 Werneth
 Wernywiel
 Werrington
@@ -22344,8 +22541,11 @@ Westbourne
 Westbridge
 Westbrook
 Westbury
+Westbury-on-Severn
+Westbury-on-Trym
 Westby
 Westcliff
+Westcliff-on-Sea
 Westcombe
 Westcot
 Westcotes
@@ -22370,6 +22570,7 @@ Westfield
 Westfields
 Westford
 Westgate
+Westgate-on-Sea
 Westhall
 Westham
 Westhampnett
@@ -22405,6 +22606,11 @@ Westmoreland
 Westnewton
 Westoe
 Weston
+Weston-on-Avon
+Weston-on-Trent
+Weston-on-the-Green
+Weston-super-Mare
+Weston-under-Lizard
 Westonbirt
 Westoncommon
 Westonfields
@@ -22492,7 +22698,7 @@ Whatmore
 Whatscombe
 Whatsole
 Whatstandwell
-Whatton
+Whatton-in-the-Vale
 Whaw
 Wheal
 Wheat
@@ -22581,12 +22787,14 @@ Whitby
 Whitbyheath
 Whitchester
 Whitchurch
+Whitchurch-on-Thames
 Whitcliffe
 Whitcombe
 Whitcot
 Whitcott
 White
 White's
+White-le-Head
 Whiteacre
 Whiteash
 Whitebirk
@@ -22673,6 +22881,7 @@ Whitnage
 Whitnash
 Whitnell
 Whitney
+Whitney-on-Wye
 Whitridge
 Whitrigg
 Whitrigglees
@@ -22686,6 +22895,7 @@ Whittingham
 Whittingslow
 Whittington
 Whittle
+Whittle-le-Woods
 Whittlebury
 Whittlefield
 Whittleford
@@ -22700,6 +22910,7 @@ Whitty
 Whittytree
 Whitway
 Whitwell
+Whitwell-on-the-Hill
 Whitwick
 Whitwood
 Whitworth
@@ -22719,7 +22930,6 @@ Wibtoft
 Wichelstowe
 Wichenford
 Wichling
-Wick
 Wick's
 Wicken
 Wickenby
@@ -23020,6 +23230,7 @@ Winters
 Wintersett
 Wintershill
 Winterton
+Winterton-on-Sea
 Winthorpe
 Winton
 Wintringham
@@ -23166,7 +23377,6 @@ Wonham
 Wonson
 Wonston
 Wooburn
-Wood
 Wood's
 Wooda
 Woodabridge
@@ -23333,7 +23543,7 @@ Woolscott
 Woolsington
 Woolstanwood
 Woolstaston
-Woolsthorpe
+Woolsthorpe-by-Colsterworth
 Woolston
 Woolstone
 Woolton
@@ -23406,7 +23616,6 @@ Worstead
 Worsthorne
 Worston
 Worten
-Worth
 Wortham
 Wortheal
 Worthing
@@ -23421,6 +23630,7 @@ Wotherton
 Wothorpe
 Wotter
 Wotton
+Wotton-under-Edge
 Woughton
 Wouldham
 Woundale
@@ -23636,7 +23846,7 @@ Yelford
 Yelland
 Yellands
 Yelling
-Yellow
+Yellow-Wort
 Yellowford
 Yelsted
 Yelvertoft

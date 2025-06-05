@@ -1,69 +1,65 @@
 import re
 
-with open('./data/placenames.txt', 'r', encoding='utf-8') as f:
-    placenames = [line.strip() for line in f if line.strip()]
-
-# Load common prefixes and suffixes from text files
 def load_list(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         return [line.strip() for line in f if line.strip()]
-    
+
+with open('./data/placenames.txt', 'r', encoding='utf-8') as f:
+    placenames = [line.strip() for line in f if line.strip()]
+
 common_prefixes = load_list('./data/common-prefixes.txt')
 common_suffixes = load_list('./data/common-suffixes.txt')
 
 prefixes = set()
-suffixes = set()
-roots = set()
-root_bases = set()
+word_starts = set()
+word_ends = set()
 
 for name in placenames:
     words = name.split()
-    if words and words[0] in common_prefixes:
-        prefixes.add(words[0])
-        root_part = ' '.join(words[1:])
-    else:
-        root_part = name
-
-    matched_suffix = None
-    for suf in sorted(common_suffixes, key=len, reverse=True):
-        if re.search(rf'{suf}$', root_part, re.I):
-            suffixes.add(suf)
-            matched_suffix = suf
-            break
-
-    if matched_suffix:
-        root = re.sub(rf'{matched_suffix}$', '', root_part, flags=re.I).strip()
-        if root and len(root) > 1:
-            root_bases.add(root)
-    else:
-        root = root_part.strip()
-        if root and len(root) > 1:
-            roots.add(root)
-
-# Add rare/less common prefixes and suffixes
-for name in placenames:
-    words = name.replace('-', ' ').split()
-    if words and len(words[0]) > 2 and words[0][0].isupper() and words[0] not in common_prefixes:
-        prefixes.add(words[0])
-    for suf in re.findall(r'[A-Z][a-z]+$', name):
-        if suf not in common_suffixes and len(suf) > 2:
-            suffixes.add(suf)
+    # Prefix: first word if in common_prefixes or is capitalized and not a known ending
+    prefix = ""
+    rest_words = words
+    if words and (words[0] in common_prefixes or (words[0][0].isupper() and words[0].lower() not in [s.lower() for s in common_suffixes])):
+        prefix = words[0]
+        prefixes.add(prefix)
+        rest_words = words[1:]
+    # For each word (except prefix), extract start and end
+    for word in rest_words:
+        # Word start: up to first vowel group or 4 letters
+        m = re.match(r"([bcdfghjklmnpqrstvwxyz]*[aeiouy]*[a-z]{0,2})", word, re.I)
+        if m:
+            start = m.group(1)
+            if len(start) > 1:
+                word_starts.add(start)
+        # Word end: match known suffix or last 3-5 letters
+        matched_suffix = None
+        for suf in sorted(common_suffixes, key=len, reverse=True):
+            if word.lower().endswith(suf.lower()):
+                word_ends.add(suf)
+                matched_suffix = suf
+                break
+        if not matched_suffix:
+            # Take last 3-5 letters as fallback, but only if it contains at least one vowel
+            if len(word) > 3:
+                end5 = word[-5:]
+                if re.search(r'[aeiouy]', end5, re.I):
+                    word_ends.add(end5)
+            if len(word) > 2:
+                end3 = word[-3:]
+                if re.search(r'[aeiouy]', end3, re.I):
+                    word_ends.add(end3)
 
 # Save to text files
 with open('./data/prefixes.txt', 'w', encoding='utf-8') as f:
     for p in sorted(prefixes):
         f.write(p + '\n')
 
-with open('./data/root_bases.txt', 'w', encoding='utf-8') as f:
-    for r in sorted(root_bases):
-        f.write(r + '\n')
-
-with open('./data/roots.txt', 'w', encoding='utf-8') as f:
-    for r in sorted(roots):
-        f.write(r + '\n')
-
-with open('./data/suffixes.txt', 'w', encoding='utf-8') as f:
-    for s in sorted(suffixes):
+with open('./data/word_starts.txt', 'w', encoding='utf-8') as f:
+    for s in sorted(word_starts):
         f.write(s + '\n')
 
-print("Parts extracted and saved to text files.")
+with open('./data/word_ends.txt', 'w', encoding='utf-8') as f:
+    for e in sorted(word_ends):
+        f.write(e + '\n')
+
+print("Granular parts extracted and saved to text files.")
