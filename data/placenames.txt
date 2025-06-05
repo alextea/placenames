@@ -8129,7 +8129,7 @@ Court
 Court Corner
 Court Hey
 Court House Green
-Court Lees Farm/Manor
+Court Lees Farm
 Court Lodge
 Court Mills
 Court Orchard
@@ -17477,7 +17477,7 @@ Ilam
 Ilchester
 Ilchester Mead
 Ilderton
-Ileden Farm/Cottages
+Ileden Farm
 Ilford
 Ilford Bridges
 Ilfracombe
@@ -21612,7 +21612,7 @@ Manningham
 Mannings Heath
 Mannington
 Manningtree
-Manor Court Road/Park Road
+Manor Court Road
 Manor Estate
 Manor Hill
 Manor House
@@ -23221,7 +23221,7 @@ Mynaughty Poeth
 Myndtown
 Mynthurst
 Myrke
-Mystole House/Park/Court
+Mystole House
 Mytchett
 Mytham Bridge
 Mythe Hook
@@ -28409,7 +28409,7 @@ Rush Green
 Rush Hill
 Rushall
 Rushams
-Rushbourne Farm/Manor
+Rushbourne Farm
 Rushbrook
 Rushbrooke
 Rushbury
