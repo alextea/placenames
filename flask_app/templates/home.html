@@ -1,5 +1,28 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>{% block title %} Welcome to your Flask app! {% endblock %}</h1>
+  <h1>{% block title %}A place in England{% endblock %}</h1>
+
+  <div class="grid-row">
+    <div class="placename-container">
+      <div class="placename">
+        <p>Welcome to</p>
+        <h2>{{ placename }}</h2>
+        <p>Please drive carefully</p>
+      </div>
+    </div>
+  </div>
+
+  <form method="get">
+    <div class="grid-row">
+        <div>
+          <button type="submit">Generate Another</button>
+        </div>
+
+        <div>
+          <input type="checkbox" id="rude-places" name="rude_places" value="true" {% if rude_places %}checked{% endif %}>
+          <label for="rude-places">Toggle rude placenames</label>
+        </input>
+    </div>
+  </form>
 {% endblock %}
