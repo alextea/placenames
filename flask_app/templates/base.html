@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='site.css')}}" />
 </head>
 
-<body>
+<body style="background-image: url('{{ background_url }}'); background-size: cover; background-position: center;">
   <div class="body-content">
     {% block content %}
     {% endblock %}
