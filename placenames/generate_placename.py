@@ -79,8 +79,7 @@ def generate_rude_placename():
     prefix = random.choice(common_prefixes) if use_common_prefix and common_prefixes else ""
 
     root_start = random.choice(rude_words)
-    root_end = random.choice(word_ends) if word_ends else ""
-    if root_end[0].isupper(): root_end = " "+root_end
+    root_end = random.choice(word_ends).lower() if word_ends else ""
     root = root_start + root_end
 
     if use_connector and word_connectors:

@@ -1,8 +1,6 @@
 {% extends 'base.html' %}
 
 {% block content %}
-  {% set background_url = url_for('static', filename='images/england_background.jpg') %}
-
   <header>
     <h1>{% block title %}A place in England.{% endblock %}</h1>
     <p>Generate random English places.</p>
@@ -21,15 +19,15 @@
 
   <form method="get">
     <div class="grid-row">
-      <div class="information-sign--wrapper">
-        <div class="information-sign--inner">
-          <button class="information-sign" type="submit">Generate another</button>
-        </div>
+      <div class="information-sign">
+        <button class="information-sign__inner information-sign--icon icon__mini-roundabout" type="submit">Generate another</button>
       </div>
 
-      <div>
-        <input type="checkbox" id="rude-places" name="rude_places" value="true" {% if rude_places %}checked{% endif %}>
-        <label for="rude-places">Toggle rude placenames</label>
+      <div class="information-sign information-sign--temporary">
+        <div class="information-sign__inner">
+          <label for="rude-places" class="svg-checkbox">Show rude names</label>
+          <input type="checkbox" id="rude-places" name="rude_places" value="true" {% if rude_places %}checked{% endif %}>
+        </div>
       </div>
     </div>
   </form>
