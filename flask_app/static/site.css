@@ -3,8 +3,28 @@ body {
 }
 
 .body-content {
-  padding: 5px;
+  padding: 20px 20px 80px 20px;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  display: inline-block;
+
+  font-size: 36px;
+  font-weight: 600;
+  color: #000;
+}
+
+header p {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 600;
+  color: #000;
+  margin-left: 20px;
 }
 
 .grid-row {
@@ -48,13 +68,41 @@ body {
 }
 
 button {
-  background-color: #000;
-  color: #fff;
   border: none;
-  padding: 1vw 2vw;
-  font-size: 3vw;
-  border-radius: 8px;
   cursor: pointer;
+}
+
+.information-sign--wrapper {
+  --information-blue: #076fb6;
+  --outer-border-width: 2px;
+  --outer-border-radius: 18px;
+  --inner-border-width: 8px;
+  --inner-border-radius: calc(var(--outer-border-radius) - var(--outer-border-width));
+  --sign-border-radius: calc(var(--inner-border-radius) - var(--inner-border-width));
+
+  background-color: var(--information-blue);
+  padding: var(--outer-border-width);
+  border-radius: var(--outer-border-radius);
+}
+
+.information-sign--inner {
+  background-color: #fff;
+  padding: var(--inner-border-width);
+  border-radius: var(--inner-border-radius);
+}
+
+.information-sign {
+  background-color: var(--information-blue);
+  border-radius: var(--sign-border-radius);
+
+  color:#fff;
+  font-size: 3vw;
+  font-weight: 600;
+  text-align: center;
+  padding: 2vw;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .photo-attribution {
