@@ -74,16 +74,22 @@ def generate_rude_placename():
     rude_words = load_list('./data/rude_words.txt')
 
     use_common_prefix = random.random() < 0.3
-    use_rude_start = random.random() < 0.6  # 40% chance to use rude as start or end
+    use_connector = random.random() < 0.1
 
     prefix = random.choice(common_prefixes) if use_common_prefix and common_prefixes else ""
 
-    if use_rude_start and rude_words:
-        root_start = random.choice(rude_words)
-        root_end = random.choice(common_suffixes) if common_suffixes else ""
-    else:
-        root_start = random.choice(common_word_starts) if common_word_starts else ""
-        root_end = random.choice(rude_words) if rude_words else ""
+    root_start = random.choice(rude_words)
+    root_end = random.choice(word_ends) if word_ends else ""
+    if root_end[0].isupper(): root_end = " "+root_end
+    root = root_start + root_end
+
+    if use_connector and word_connectors:
+        connector = random.choice(word_connectors)
+        # Randomly insert connector between start and end
+        end_start = random.choice(word_starts) if word_starts else ""
+        end_end = random.choice(word_ends).lower() if word_ends else ""
+        end = end_start + end_end
+        root = f"{root} {connector} {end}"
 
     if root_end[0].isupper():
         suffix = " "+root_end
