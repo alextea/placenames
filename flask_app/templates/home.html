@@ -7,23 +7,21 @@
   </header>
 
 
-  <div class="grid-row">
-    <div class="placename-container">
-      <div class="placename">
-        <p>Welcome to</p>
-        <h2>{{ placename }}</h2>
-        <p>Please drive carefully</p>
-      </div>
+  <div class="placename-container">
+    <div class="placename">
+      <p>Welcome to</p>
+      <h2>{{ placename }}</h2>
+      <p>Please drive carefully</p>
     </div>
   </div>
 
   <form method="get">
-    <div class="grid-row">
+    <div class="button-row">
       <div class="information-sign">
         <button class="information-sign__inner information-sign--icon icon__mini-roundabout" type="submit">Generate another</button>
       </div>
 
-      <div class="information-sign information-sign--temporary">
+      <div class="information-sign information-sign--temporary information-sign--checkbox">
         <div class="information-sign__inner">
           <label for="rude-places" class="svg-checkbox">Show rude names</label>
           <input type="checkbox" id="rude-places" name="rude_places" value="true" {% if rude_places %}checked{% endif %}>
@@ -31,4 +29,14 @@
       </div>
     </div>
   </form>
+
+  <footer>
+    <p class="photo-attribution">
+      Photo by <a href="{{ unsplash_user_url }}?utm_source=a_place_in_england&utm_medium=referral">{{ unsplash_user_name }}</a> on <a href="https://unsplash.com/?utm_source=a_place_in_england&utm_medium=referral">Unsplash</a>
+    </p>
+
+    <p class="credits">
+      Site by <a href="https://bsky.app/profile/alextorrance.co.uk">Alex Torrance</a>
+    </p>
+  </footer>
 {% endblock %}

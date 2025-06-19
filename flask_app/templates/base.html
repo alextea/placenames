@@ -4,16 +4,13 @@
   <meta charset="utf-8" />
   <title>{% block title %}{% endblock %}</title>
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='site.css')}}" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
 
 <body style="background-image: url('{{ background_url }}'); background-size: cover; background-position: center;">
   <div class="body-content">
     {% block content %}
     {% endblock %}
-
-    <div class="photo-attribution">
-      Photo by <a href="{{ unsplash_user_url }}?utm_source=a_place_in_england&utm_medium=referral">{{ unsplash_user_name }}</a> on <a href="https://unsplash.com/?utm_source=a_place_in_england&utm_medium=referral">Unsplash</a>
-    </div>
   </div>
 </body>
 </html>

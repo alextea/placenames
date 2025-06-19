@@ -1,49 +1,85 @@
-body {
-  background-size: cover;
-}
-
-.body-content {
-  padding: 20px 20px 80px 20px;
+html * {
+  --information-blue: #076fb6;
+  --warning-red: #bd002d;
+  --primary-green: #17683a;
+  --temporary-yellow: #f4d209;
+  --attraction-brown: #724e0f;
+  --black: #000;
+  --white: #fff;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+body {
+  background-size: cover;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.body-content {
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: calc(100vh - 40px);
+}
+
 header {
-  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 1em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1vw;
 }
 
 header h1 {
-  display: inline-block;
-
-  font-size: 36px;
+  font-size: 3vw;
   font-weight: 600;
   color: #000;
+  margin: 0;
 }
 
 header p {
-  display: inline-block;
-  font-size: 36px;
+  font-size: 3vw;
   font-weight: 600;
   color: #000;
-  margin-left: 20px;
+  margin: 0;
 }
 
-.grid-row {
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 4vw;
+  }
+
+  header h1 {
+    font-size: 6vw;
+  }
+
+  header p {
+    font-size: 6vw;
+  }
+}
+
+.button-row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
-  margin-bottom: 4vw;
+  align-items: stretch;
 }
 
 .placename-container {
-  --border-width: 24px;
-  --border-radius: 36px;
+  --border-width: 3vw;
+  --border-radius: 6vw;
   --inner-radius: calc(var(--border-radius) - var(--border-width));
 
   background: #000;
   border-radius: var(--border-radius);
   padding: var(--border-width);
-  align-content: center;
+  align-self: center;
 }
 
 .placename {
@@ -73,14 +109,6 @@ button {
 }
 
 .information-sign {
-  --information-blue: #076fb6;
-  --warning-red: #bd002d;
-  --primary-green: #17683a;
-  --temporary-yellow: #f4d209;
-  --attraction-brown: #724e0f;
-  --black: #000;
-  --white: #fff;
-
   --outer-border-radius: 18px;
   --border-width: 8px;
   --inner-border-radius: calc(var(--outer-border-radius) - var(--border-width));
@@ -102,6 +130,20 @@ button {
   margin: 0;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .button-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 4vw;
+  }
+
+  .information-sign__inner {
+    font-size: 6vw;
+    padding: 4vw;
+  }
+}
+
 
 .information-sign--information {
   background-color: var(--white);
@@ -165,16 +207,30 @@ button {
 }
 
 .svg-checkbox {
-  padding: 2vw;
-  padding-left: 8vw;
+  padding: 3vw 0 3vw 8vw;
   background-repeat: no-repeat;
   background-size: 6vw;
   background-position: 1vw center;
   background-image: url("data:image/svg+xml,%3Csvg width='366' height='322' viewBox='0 0 366 322' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='warning-sign'%3E%3Cpath id='Vector' fill-rule='evenodd' clip-rule='evenodd' d='M108.5 302.7H18.5L182.6 13.9L348.3 302.7H108.5Z' fill='white'/%3E%3Cpath id='Vector_2' fill-rule='evenodd' clip-rule='evenodd' d='M341.2 321.8C349.6 321.8 357.5 317.2 361.9 309.8C366.3 302.4 366.3 293.2 361.9 285.8L203.7 12.3C199.4 4.7 191.5 0 182.8 0C174.2 0 166.3 4.7 162 12.2L4.10002 285.6C-0.299982 293.2 -0.299982 302.5 4.10002 309.9C8.50002 317.2 16.4 321.9 25.1 321.9L341.2 321.8ZM39 289.7H327L183.1 40.3L39 289.7Z' fill='%23BD002D'/%3E%3C/g%3E%3C/svg%3E%0A");
 }
 
+@media only screen and (max-width: 600px) {
+  .information-sign--icon {
+    padding-left: 16vw;
+    background-size: 12vw;
+    background-position: 2vw center;
+  }
+
+  .svg-checkbox {
+    padding: 6vw 0 6vw 16vw;
+    background-size: 12vw;
+    background-position: 2vw center;
+  }
+}
+
 div:has(>.svg-checkbox) {
   position: relative;
+  padding-left: 0;
 }
 
 .svg-checkbox~input[type="checkbox"] {
@@ -192,14 +248,23 @@ a {
   color: var(--information-blue)
 }
 
-.photo-attribution {
-  --information-blue: #076fb6;
-  font-size: 18px;
+footer {
+  font-size: 2vw;
   background-color: #fff;
   color: #000;
   padding: 1em;
 
-  position: relative;
-  bottom: 0;
-  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+
+  footer p {
+    margin: 0.5em 0;
+  }
 }
