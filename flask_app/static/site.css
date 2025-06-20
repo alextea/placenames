@@ -23,6 +23,7 @@ body {
   justify-content: space-between;
 
   min-height: calc(100vh - 40px);
+  gap: 5vh;
 }
 
 header {
@@ -252,7 +253,7 @@ footer {
   font-size: 2vw;
   background-color: #fff;
   color: #000;
-  padding: 1em;
+  padding: 0.2em 1em;
 
   display: flex;
   flex-direction: row;

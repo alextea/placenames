@@ -2,9 +2,9 @@ from flask import Flask, render_template, request
 from placenames.generate_placename import generate_common_placename, generate_rude_placename
 import requests
 import os
+import traceback
 
 from dotenv import load_dotenv
-import traceback
 load_dotenv()
 
 app = Flask(__name__)
