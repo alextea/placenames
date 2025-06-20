@@ -1,23 +1,49 @@
-# Flask Template
+# 📍 A Place in England
 
-This sample repo contains the recommended structure for a Python Flask project. In this sample, we use `flask` to build a web application and the `pytest` to run tests.
+This is a web app that generates random, plausible-sounding English place names using a corpus of 38,600+ real place names from the [ONS Index of Place Names](https://geoportal.statistics.gov.uk/datasets/208d9884575647c29f0dd5a1184e711a/about). The app uses a combination of linguistic rules and randomisation to create new names, and can optionally generate "rude" place names for fun.
 
- For a more in-depth tutorial, see our [Flask tutorial](https://code.visualstudio.com/docs/python/tutorial-flask).
+## Features
+- Generates random English place names based on real data
+- Optionally generates "rude" place names
 
- The code in this repo aims to follow Python style guidelines as outlined in [PEP 8](https://peps.python.org/pep-0008/).
+## Generating the placenames
 
-## Running the Sample
+There are 3 scripts used to extract and generate the placenames:
 
-To successfully run this example, we recommend the following VS Code extensions:
+- `filter_placename_data.py`: Filters the raw ONS data to get placenames that match locations in England
+- `extract_parts.py`: Splits the placenames into tokens (prefixes, roots, suffixes, etc.) used to reconstruct new names
+- `generate_placename.py`: Contains methods to generate placenames based on different rules
 
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
-- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) 
+## Running the web app
 
-- Open the template folder in VS Code (**File** > **Open Folder...**)
-- Create a Python virtual environment using the **Python: Create Environment** command found in the Command Palette (**View > Command Palette**). Ensure you install dependencies found in the `pyproject.toml` file
-- Ensure your newly created environment is selected using the **Python: Select Interpreter** command found in the Command Palette
-- Run the app using the Run and Debug view or by pressing `F5`
-- To test your app, ensure you have the dependencies from `dev-requirements.txt` installed in your environment
-- Navigate to the Test Panel to configure your Python test or by triggering the **Python: Configure Tests** command from the Command Palette
-- Run tests in the Test Panel or by clicking the Play Button next to the individual tests in the `test_app.py` file
+1. **Install dependencies**
+   ```sh
+   cd flask_app
+   pip install -r requirements.txt
+   ```
+
+2. **Set up environment variables**
+   - Create a `.env` file in the project root or set the `UNSPLASH_ACCESS_KEY` in your shell:
+     ```sh
+     echo "UNSPLASH_ACCESS_KEY=your_unsplash_api_key" > .env
+     ```
+
+3. **Run the Flask app from the project root**
+   ```sh
+   cd ..  # if you're in flask_app
+   python -m flask_app.app
+   # or
+   export FLASK_APP=flask_app/app.py
+   flask run
+   ```
+
+4. **Open your browser** and go to [http://localhost:5000](http://localhost:5000)
+
+## Project structure
+- `placenames/` — logic for extracting and generating placename parts
+- `flask_app/` — Flask web app and templates
+- `data/` — data files and extracted parts
+
+---
+
+Site by [Alex Torrance](https://bsky.app/profile/alextorrance.co.uk)
