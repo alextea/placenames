@@ -172,6 +172,7 @@ Adelphi
 Adeney
 Adeyfield
 Adforton
+Adgarley
 Adgestone
 Adisham
 Adlestrop
@@ -667,6 +668,7 @@ Antony
 Antony Passage
 Antrobus
 Antron
+Anvil Corner
 Anvil Green
 Anwick
 Apedale
@@ -1852,6 +1854,7 @@ Bason Bridge
 Bassenhally Field
 Bassenhally Moor
 Bassenthwaite
+Basset
 Bassett
 Bassett Green
 Bassetts Pole
@@ -5218,6 +5221,7 @@ Burnham Market
 Burnham Norton
 Burnham Overy Staithe
 Burnham Overy Town
+Burnham Sutton
 Burnham Sutton and Ulph
 Burnham Thorpe
 Burnham Westgate
@@ -7284,6 +7288,7 @@ Coal Fell
 Coal Hill
 Coal Orchard
 Coal Pool
+Coal Street
 Coalbournbrook
 Coalbrookdale
 Coalburn
@@ -7516,6 +7521,7 @@ Cole Green
 Cole Henley
 Cole Hill
 Cole Park
+Cole Street
 Cole's Common
 Cole's Cross
 Cole's Green
@@ -8491,6 +8497,7 @@ Crockhurst Street
 Crockleford Heath
 Crocksfoot Hill
 Crockwell
+Croesau
 Croesau Bach
 Croford
 Croft
@@ -8686,6 +8693,7 @@ Crowell Hill
 Crowels Ash
 Crowfield
 Crowfield Green
+Crowgate
 Crowgate Street
 Crowgutter
 Crowhill
@@ -8947,6 +8955,7 @@ Daisyfield
 Dalbury
 Dalby
 Dalby Lodges
+Dalby on the Wolds
 Dalby Wolds
 Dalderby
 Dale
@@ -9219,6 +9228,7 @@ Decoy
 Deddington
 Dedham
 Dedworth
+Dee
 Dee Banks
 Dee Hills Park
 Deene
@@ -9293,6 +9303,7 @@ Denhay Cross
 Denholme
 Denholme Clough
 Denholme Gate
+Denmark Green
 Denmead
 Denner Hill
 Dennington
@@ -11287,6 +11298,7 @@ Fakenham
 Fakenham Magna
 Falcon
 Falcon Lodge Crescent
+Falconhurst
 Falconwood
 Falcutt
 Faldingworth
@@ -11626,6 +11638,7 @@ Fiery Holes
 Fifehead Magdalen
 Fifehead Neville
 Fifehead St Quintin
+Fifehead St. Quintin
 Fifield
 Fifield Bavant
 Fifield Farm
@@ -12053,6 +12066,7 @@ Forton Heath
 Fortune Green
 Fortunes Green
 Fortuneswell
+Forty
 Forty Acre Pitch
 Forty Feet Bridge
 Forty Green
@@ -13115,6 +13129,7 @@ Gopsall House
 Gorcott Hill
 Gordon Gill
 Gore
+Gore Common
 Gore Cross
 Gore End
 Gore Fields
@@ -13278,6 +13293,7 @@ Grantchester
 Grantham
 Grants
 Grantsfield
+Granville
 Granville Lodges Road
 Grapnells
 Grappenhall
@@ -13921,6 +13937,7 @@ Grundisburgh
 Grunsagill
 Grunthill
 Grunty Fen
+Grylls
 Gryn
 Guanockgate
 Guard House
@@ -14132,6 +14149,7 @@ Hailforth
 Hailsham
 Hainault
 Haine
+Haines
 Haines Hill
 Hainford
 Hains
@@ -14501,6 +14519,7 @@ Hanningfield Green
 Hanningfields Green
 Hannington
 Hannington Wick
+Hanover Sq.St. George
 Hanover Square
 Hanover Square St. George
 Hans
@@ -14578,6 +14597,7 @@ Hardwick End
 Hardwick Green
 Hardwick Park
 Hardwicke
+Hardy
 Hardy Flatts
 Hardy Green
 Hardy's Green
@@ -14998,6 +15018,7 @@ Hawick Woods
 Hawk End
 Hawk Green
 Hawk's Green
+Hawkaller
 Hawkchurch
 Hawkcombe
 Hawkedon
@@ -18920,6 +18941,7 @@ Langunnett
 Langwade Green
 Langwathby
 Langwith
+Langwith Bassett
 Langwith Colliery
 Langwith Junction
 Langwood Fen
@@ -20437,6 +20459,7 @@ Longwood Edge
 Longworth
 Lonton
 Looe
+Looe Island
 Looemills
 Lookout Hill
 Loose
@@ -20858,6 +20881,7 @@ Lower Farm Lidwell
 Lower Farringdon
 Lower Feldy Green
 Lower Feltham
+Lower Fifehead
 Lower Fittleworth
 Lower Foddington
 Lower Fold
@@ -24015,6 +24039,7 @@ Nobold
 Nobottle
 Nocton
 Noctorum
+Nod
 Nodewell Farm
 Nodmore
 Noel Park
@@ -24858,6 +24883,7 @@ Old Oak Common
 Old Oscott
 Old Park
 Old Passage
+Old Penshaw
 Old Perton
 Old Polapit Tamar
 Old Portsmouth
@@ -25368,6 +25394,7 @@ Pain's End
 Paines Hill
 Painleyhill
 Pains-Hill
+Painshawfield
 Painsthorpe
 Painswhin
 Painswick
@@ -25454,6 +25481,7 @@ Paris
 Parish Ghyll
 Park
 Park Barn
+Park Barracks
 Park Bottom
 Park Bridge
 Park Broom
@@ -25630,6 +25658,7 @@ Paxton
 Paxton Hill
 Payden Street
 Payhembury
+Payne
 Payne End
 Paynes Green
 Paynes Hay
@@ -25993,6 +26022,7 @@ Pett
 Pett Bottom
 Pett Street
 Pettaugh
+Petten Grove
 Petterhills
 Petteridge
 Petteril Bank
@@ -26806,7 +26836,7 @@ Prees Wood
 Preesall
 Preese Hall
 Preesgweene
-
+Preesgwyn
 Preeshenlle
 Prendwick
 Prenton
@@ -29207,6 +29237,7 @@ Sewerby
 Seworgan
 Sewstern
 Sexhow
+Sextonby
 Seymour Plain
 Shabbington
 Shackerley
@@ -29896,6 +29927,7 @@ Simpson
 Simpson Clough
 Simpson Green
 Simpson Ground
+Simpson Moor
 Sinah
 Sinai Park
 Sinderby
@@ -32509,6 +32541,7 @@ Synwell
 Syon Park
 Syreford
 Syresham
+Sysonby
 Syston
 Sytch Lane
 Sytchampton
@@ -32873,7 +32906,6 @@ The Bridge
 The Broad
 The Brockey Farm
 The Brockhurst
-The Brockhurst 
 The Brook
 The Broom
 The Brow
@@ -32935,7 +32967,7 @@ The Eals
 The Edge
 The Elms
 The Engine
-The Enterdent 
+The Enterdent
 The Fall
 The Fence
 The Fens
@@ -33043,6 +33075,7 @@ The Lakes
 The Lawe
 The Lawn
 The Leacon
+The Leaze
 The Leazes
 The Lee
 The Lees
@@ -34870,6 +34903,7 @@ Ullington
 Ullock
 Ullswater
 Ulnes Walton
+Ulph
 Ulpha
 Ulrome
 Ulshaw
@@ -35760,6 +35794,7 @@ Warham
 Warhill
 Waring Green
 Waring's Green
+Waringstone
 Wark
 Warkleigh
 Warkton
@@ -36840,6 +36875,7 @@ Whaplode St Catherine
 Whaplode St. Catherine
 Wharf Hill
 Wharfe
+Wharfedale
 Wharfside
 Wharles
 Wharley End
@@ -37087,6 +37123,7 @@ Whiteheath Gate
 Whitehill
 Whitehills
 Whiteholme
+Whitehorse
 Whitehorse Hill
 Whitehough
 Whitehough Head
@@ -37545,6 +37582,7 @@ Windlestone
 Windley
 Windmill
 Windmill Bank
+Windmill Drive
 Windmill End
 Windmill Hill
 Windmill Hill Road

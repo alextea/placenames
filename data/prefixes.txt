@@ -103,6 +103,7 @@ Adelphi
 Adeney
 Adeyfield
 Adforton
+Adgarley
 Adgestone
 Adisham
 Adlestrop
@@ -1248,6 +1249,7 @@ Baslow
 Bason
 Bassenhally
 Bassenthwaite
+Basset
 Bassett
 Bassetts
 Bassingbourn
@@ -6323,6 +6325,7 @@ Denhall
 Denham
 Denhay
 Denholme
+Denmark
 Denmead
 Denner
 Dennington
@@ -7607,6 +7610,7 @@ Fairweather
 Fairy
 Fakenham
 Falcon
+Falconhurst
 Falconwood
 Falcutt
 Faldingworth
@@ -9290,6 +9294,7 @@ Grundisburgh
 Grunsagill
 Grunthill
 Grunty
+Grylls
 Gryn
 Guanockgate
 Guard
@@ -10000,6 +10005,7 @@ Hawgreen
 Hawick
 Hawk
 Hawk's
+Hawkaller
 Hawkchurch
 Hawkcombe
 Hawkedon
@@ -14827,6 +14833,7 @@ Nobold
 Nobottle
 Nocton
 Noctorum
+Nod
 Nodewell
 Nodmore
 Noel
@@ -15489,6 +15496,7 @@ Pain's
 Paines
 Painleyhill
 Pains-Hill
+Painshawfield
 Painsthorpe
 Painswhin
 Painswick
@@ -15951,6 +15959,7 @@ Petre
 Petsoe
 Pett
 Pettaugh
+Petten
 Petterhills
 Petteridge
 Petteril
@@ -16576,6 +16585,7 @@ Prees
 Preesall
 Preese
 Preesgweene
+Preesgwyn
 Preeshenlle
 Prendwick
 Prenton
@@ -18338,6 +18348,7 @@ Sewerby
 Seworgan
 Sewstern
 Sexhow
+Sextonby
 Seymour
 Shabbington
 Shackerley
@@ -20302,6 +20313,7 @@ Synwell
 Syon
 Syreford
 Syresham
+Sysonby
 Syston
 Sytch
 Sytchampton
@@ -21791,6 +21803,7 @@ Ullington
 Ullock
 Ullswater
 Ulnes
+Ulph
 Ulpha
 Ulrome
 Ulshaw
@@ -22200,6 +22213,7 @@ Warham
 Warhill
 Waring
 Waring's
+Waringstone
 Wark
 Warkleigh
 Warkton
@@ -22676,6 +22690,7 @@ Whamtown
 Whaplode
 Wharf
 Wharfe
+Wharfedale
 Wharfside
 Wharles
 Wharley
