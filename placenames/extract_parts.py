@@ -13,9 +13,22 @@ common_suffixes = load_list('./data/common-suffixes.txt')
 prefixes = set()
 word_starts = set()
 word_ends = set()
+word_connectors = set()
 common_word_starts = set()
 
 for name in placenames:
+    # Find sequences of words starting with lowercase letters
+    lc = re.findall(r'\b(-?[a-z][a-z\'-]+)+\s?[A-Z]', name)
+    if lc:
+        lc = lc[0].strip()
+        if lc not in word_connectors:
+            word_connectors.add(lc)
+    # Find sequences of lower case words ending placenames    
+    ec = re.findall(r'\b(-?[a-z][a-z\'-]+)+$', name)
+    if ec:
+        ec = ec[0].strip()
+        if ec not in word_ends:
+            word_ends.add(ec)
     words = name.split()
     # Prefix: first word if in common_prefixes or is capitalized and not a known ending
     prefix = ""
@@ -27,10 +40,10 @@ for name in placenames:
     # For each word (except prefix), extract start and end
     for word in rest_words:
         # Word start: up to first vowel group or 4 letters
-        m = re.match(r"([bcdfghjklmnpqrstvwxyz]*[aeiouy]*[a-z]{0,2})", word, re.I)
+        m = re.match(r"([A-Z][bcdfghjklmnpqrstvwxyz]*[aeiouy]+[a-z]{0,2})", word)
         if m:
             start = m.group(1)
-            if len(start) > 1:
+            if len(start) > 1 and start not in word_starts:
                 word_starts.add(start)
         # Word end: match known suffix or last 3-5 letters
         matched_suffix = None
@@ -66,6 +79,10 @@ with open('./data/word_starts.txt', 'w', encoding='utf-8') as f:
 with open('./data/word_ends.txt', 'w', encoding='utf-8') as f:
     for e in sorted(word_ends):
         f.write(e + '\n')
+
+with open('./data/word_connectors.txt', 'w', encoding='utf-8') as f:
+    for c in sorted(word_connectors):
+        f.write(c + '\n')
 
 with open('./data/common_word_starts.txt', 'w', encoding='utf-8') as f:
     for s in sorted(common_word_starts):

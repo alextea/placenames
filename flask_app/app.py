@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from placenames.generate_placename import generate_common_placenames, generate_rude_placename
+from placenames.generate_placename import generate_common_placename, generate_rude_placename
 import requests
 import os
 
@@ -49,7 +49,7 @@ def home():
     if rude_places:
         placename = generate_rude_placename()
     else:
-        placename = generate_common_placenames()
+        placename = generate_common_placename()
     image_data = get_unsplash_image_url()
     return render_template(
         "home.html",

@@ -39,6 +39,8 @@ def generate_placename():
         end_end = random.choice(word_ends).lower() if word_ends else ""
         end = end_start + end_end
         root = f"{root} {connector} {end}"
+        if '-' in root:
+            root = root.replace(' ', '')
 
     # Optionally add a space if prefix is present and root doesn't start with a space
     name = f"{prefix} {root}".strip()
@@ -46,7 +48,7 @@ def generate_placename():
     name = re.sub(r'\s+', ' ', name)
     return name
 
-def generate_common_placenames():
+def generate_common_placename():
     # Only use common prefixes, common word starts, and common suffixes
     use_common_prefix = random.random() < 0.4
     use_connector = random.random() < 0.1
@@ -64,6 +66,8 @@ def generate_common_placenames():
         end_end = random.choice(common_suffixes).lower() if common_suffixes else ""
         end = end_start + end_end
         root = f"{root} {connector} {end}"
+        if '-' in root:
+            root = root.replace(' ', '')
 
     name = f"{prefix} {root}".strip()
     name = re.sub(r'\s+', ' ', name)
@@ -99,3 +103,14 @@ def generate_rude_placename():
     name = f"{prefix} {root}".strip()
     name = re.sub(r'\s+', ' ', name)
     return name
+
+if __name__ == "__main__":
+    print("\nGenerating 15 random placenames:")
+    for _ in range(15):
+        print(generate_placename())
+    print("\nGenerating 15 common placenames:")
+    for _ in range(15):
+        print(generate_common_placename())
+    print("\nGenerating 15 rude placenames:")
+    for _ in range(15):
+        print(generate_rude_placename())
