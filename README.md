@@ -1,24 +1,25 @@
-# 📍 A Place in England
+# A Place in England
 
 This is a web app that generates random, plausible-sounding English place names using a corpus of 38,600+ real place names from the [ONS Index of Place Names](https://geoportal.statistics.gov.uk/datasets/208d9884575647c29f0dd5a1184e711a/about). The app uses a combination of linguistic rules and randomisation to create new names, and can optionally generate "rude" place names for fun.
 
 ## Features
 - Generates random English place names based on real data
 - Optionally generates "rude" place names
+- Displays a random Unsplash photo of the English countryside as a background
+- Credits Unsplash photographers for images
 
 ## Generating the placenames
 
 There are 3 scripts used to extract and generate the placenames:
 
-- `filter_placename_data.py`: Filters the raw ONS data to get placenames that match locations in England
-- `extract_parts.py`: Splits the placenames into tokens (prefixes, roots, suffixes, etc.) used to reconstruct new names
-- `generate_placename.py`: Contains methods to generate placenames based on different rules
+- `placenames/filter_placename_data.py`: Filters the raw ONS data to get placenames that match locations in England
+- `placenames/extract_parts.py`: Splits the placenames into tokens (prefixes, roots, suffixes, etc.) used to reconstruct new names
+- `placenames/generate_placename.py`: Contains methods to generate placenames based on different rules
 
 ## Running the web app
 
 1. **Install dependencies**
    ```sh
-   cd flask_app
    pip install -r requirements.txt
    ```
 
@@ -30,7 +31,6 @@ There are 3 scripts used to extract and generate the placenames:
 
 3. **Run the Flask app from the project root**
    ```sh
-   cd ..  # if you're in flask_app
    python -m flask_app.app
    # or
    export FLASK_APP=flask_app/app.py
