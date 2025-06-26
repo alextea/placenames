@@ -109,6 +109,10 @@ button {
   cursor: pointer;
 }
 
+label {
+  cursor: pointer;
+}
+
 .information-sign {
   --outer-border-radius: 18px;
   --border-width: 8px;
