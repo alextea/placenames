@@ -1,3 +1,17 @@
+@font-face { 
+  font-family: 'TransportNew';
+  src: url('/static/fonts/TransportNew-Light.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TransportNew';
+  src: url('/static/fonts/TransportNew-Medium.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
 html * {
   --information-blue: #076fb6;
   --warning-red: #bd002d;
@@ -6,7 +20,7 @@ html * {
   --attraction-brown: #724e0f;
   --black: #000;
   --white: #fff;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'TransportNew', Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -94,6 +108,7 @@ header p {
   text-transform: uppercase;
   text-align: center;
   margin: 0;
+  padding-top: 2vw;
 }
 
 .placename p {
@@ -101,7 +116,7 @@ header p {
   font-weight: 600;
   text-align: center;
   margin: 0;
-  padding: 2vw;
+  padding: 2.2vw 2vw 1.8vw 2vw;
 }
 
 button {
@@ -131,7 +146,7 @@ label {
   font-size: 3vw;
   font-weight: 600;
   text-align: center;
-  padding: 2vw;
+  padding: 2.2vw 2vw 1.8vw 2vw;
   margin: 0;
   text-decoration: none;
 }
@@ -145,7 +160,7 @@ label {
 
   .information-sign__inner {
     font-size: 6vw;
-    padding: 4vw;
+    padding: 4.2vw 4vw 3.8vw 4vw;
   }
 }
 
