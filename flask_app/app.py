@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from placenames.generate_placename import generate_common_placename, generate_rude_placename
+from placenames.generate_placename import generate_placenames
 import requests
 import os
 import traceback
@@ -9,7 +9,8 @@ load_dotenv()
 
 app = Flask(__name__)
 
-UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY")  # Set this in your environment
+# Always get the UNSPLASH_ACCESS_KEY from the environment at runtime
+UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY")
 
 def get_unsplash_image_url():
     if not UNSPLASH_ACCESS_KEY:
@@ -46,10 +47,8 @@ def get_unsplash_image_url():
 @app.route("/")
 def home():
     rude_places = request.args.get("rude_places") == "true"
-    if rude_places:
-        placename = generate_rude_placename()
-    else:
-        placename = generate_common_placename()
+    mode = 'rude' if rude_places else request.args.get("mode", "common")
+    placename = generate_placenames(mode, 1)
     image_data = get_unsplash_image_url()
     return render_template(
         "home.html",

@@ -7,8 +7,8 @@ def load_list(filename):
 with open('./data/placenames.txt', 'r', encoding='utf-8') as f:
     placenames = [line.strip() for line in f if line.strip()]
 
-common_prefixes = load_list('./data/common-prefixes.txt')
-common_suffixes = load_list('./data/common-suffixes.txt')
+common_prefixes = load_list('./data/common_prefixes.txt')
+common_suffixes = load_list('./data/common_suffixes.txt')
 
 prefixes = set()
 word_starts = set()
