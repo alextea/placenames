@@ -12,6 +12,17 @@ app = Flask(__name__)
 # Always get the UNSPLASH_ACCESS_KEY from the environment at runtime
 UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY")
 
+# Umami analytics: the tracking script is only included when a website ID is set
+UMAMI_WEBSITE_ID = os.environ.get("UMAMI_WEBSITE_ID")
+UMAMI_SCRIPT_URL = os.environ.get("UMAMI_SCRIPT_URL", "https://cloud.umami.is/script.js")
+
+@app.context_processor
+def inject_umami():
+    return {
+        "umami_website_id": UMAMI_WEBSITE_ID,
+        "umami_script_url": UMAMI_SCRIPT_URL,
+    }
+
 def get_unsplash_image_url():
     if not UNSPLASH_ACCESS_KEY:
         # Fallback image and dummy credit if no API key is set
